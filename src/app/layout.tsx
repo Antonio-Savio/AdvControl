@@ -5,6 +5,8 @@ import { Header } from "@/components/header";
 import { AuthProvider } from '@/providers/auth'
 import { ModalProvider } from "@/providers/modal";
 import { Toaster } from "react-hot-toast";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,7 +41,9 @@ export default function RootLayout({
 
           <ModalProvider>
             <Header/>
-            {children}
+            <Suspense fallback={<Loading/>}>
+              {children}
+            </Suspense>
           </ModalProvider>
         </AuthProvider>
       </body>
