@@ -5,7 +5,6 @@ import { Header } from "@/components/header";
 import { AuthProvider } from '@/providers/auth'
 import { ModalProvider } from "@/providers/modal";
 import { Toaster } from "react-hot-toast";
-import { Suspense } from "react";
 import Loading from "./loading";
 
 const opensans = Open_Sans({
@@ -37,9 +36,7 @@ export default function RootLayout({
 
           <ModalProvider>
             <Header/>
-            <Suspense fallback={<Loading/>}>
-              {children}
-            </Suspense>
+            {children}
           </ModalProvider>
         </AuthProvider>
       </body>
