@@ -9,8 +9,12 @@ O **AdvControl** é uma plataforma desenvolvida para advogados gerenciarem suas 
 ---
 
 ## 💻 Visão Geral
-<img src="public/advcontrol.gif" alt="Prévia AdvControl" />
-<img width="350px" src="public/advcontrol-mobile.gif" alt="Prévia em celular AdvControl" />
+- Versão em desktop:
+<img src="./src/assets/advcontrol-desktop.gif" alt="Prévia AdvControl" />
+- Cadastro de demanda sem estar logado:
+<img src="./src/assets/advcontrol-public.gif" alt="Prévia AdvControl" />
+- Versão em celulares:
+<img width="350px" src="./src/assets/advcontrol-mobile.gif" alt="Prévia em celular AdvControl" />
 
 ---
 
@@ -26,7 +30,7 @@ O **AdvControl** é uma plataforma desenvolvida para advogados gerenciarem suas 
 - **Proteção de rotas**:
   - Apenas usuários autenticados podem acessar o dashboard.
 - **Rota pública para criação de demandas**:
-  - Qualquer pessoa pode criar uma demanda, fornecendo o e-mail do cliente.
+  - Qualquer pessoa pode criar uma demanda, mesmo sem estar logado, fornecendo o e-mail do cliente.
 - **Toast de confirmação**:
   - Mensagens de confirmação para ações como cadastro, exclusão e atualização.
 
