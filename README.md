@@ -9,11 +9,11 @@ O **AdvControl** é uma plataforma desenvolvida para advogados gerenciarem suas 
 ---
 
 ## 💻 Visão Geral
-- Versão em desktop:
+- Versão desktop:
 <img src="./src/assets/advcontrol-desktop.gif" alt="Prévia AdvControl" />
 - Cadastro de demanda sem estar logado:
 <img src="./src/assets/advcontrol-public.gif" alt="Prévia AdvControl" />
-- Versão em celulares:
+- Versão para celular:
 <img width="350px" src="./src/assets/advcontrol-mobile.gif" alt="Prévia em celular AdvControl" />
 
 ---
